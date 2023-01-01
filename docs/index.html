@@ -57,13 +57,12 @@
 
         /* Position canvas in center-top: */
         canvas {
-            margin-right: auto;
-            margin-left: auto;
-            display: block;
             position: absolute;
-            top: 0%;
-            left: 50%;
-            transform: translate(-50%, 0%);
+            left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	    margin: auto;
         }
 
         .centered {
@@ -130,10 +129,6 @@
             });
         }
     </script>
-
-
-
-
 
 <script>(function () {
     var protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
